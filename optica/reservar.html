@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Reserva de Hora</title>
+  <link rel="shortcut icon" href="http://tu_servidor/iconos/favicon.ico">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group select {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .form-group select {
+      height: 30px;
+    }
+
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Reservar una hora</h2>
+    <form action="procesar_reserva.php" method="POST">
+      <div class="form-group">
+        <label for="nombre">Nombre del cliente:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        
+        <label for="rut">Rut:</label>
+       
+        <input type="rut" id="rut" name="rut" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electronico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="sucursal">Sucursal:</label>
+        <select id="sucursal" name="sucursal" required>
+          <option value="">Seleccione una sucursal</option>
+          <option value="Calle Las Hijuelas, Población San Guillermo de Puente Alto">Calle Las Hijuelas, Poblacion San Guillermo de Puente Alto</option>
+          <option value="Calle Alto Los Leones, Plaza Viva de Puente Alto">Calle Alto Los Leones, Plaza Viva de Puente Alto</option>
+          <option value="Avenida Parque Central, Ciudad del Este de Puente Alto">Avenida Parque Central, Ciudad del Este de Puente Alto</option>
+          <option value="Calle Arauco, Villa O'Higgins de La Florida">Calle Arauco, Villa O'Higgins de La Florida</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="hora">Hora de reserva:</label>
+        <select id="hora" name="hora" required>
+          <option value="">Seleccione una hora</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+    
+
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit">Reservar</button>
+      </div>
+
+
+
+
+
+    </form>
+    <footer id="pie">Derechos Reservados &copy; 2022-2023</footer>
+    
+  </div>
+  
+
+</body>
+
+</html>

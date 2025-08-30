@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .container {
+    position: relative; bottom: 920px; left: 50px;
+    width: 800px;
+      margin: 0 auto;
+      min-height: 10px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .imgRedonda {
+    width:250px;
+    height:250px;
+    border-radius:150px;
+   
+}
+#agrupar
+{
+    width: 900px; margin: 15px auto; text-align: left;
+}
+#cabecera
+{
+    background: #fffb05 ; border: 1px solid #66be00; padding: 10px;
+}
+#menu
+{
+    background: #66be00; padding: 5px 15px;
+}
+#menu li
+{
+    display: inline-block; list-style: none; padding: 5px;
+    font:bold 14px verdana, sans-serif;
+}
+  .img.pequeña {
+    
+    width: 90px;
+    height: 90px;
+}
+#pie
+{
+    
+    clear: both; text-align: center; padding: 20px;
+    border-top: 3px solid #221b1b;background: #0693f8;
+}
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+
+  .product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  .product h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+
+  .product p {
+    color: #888;
+  }
+
+  .product .price {
+    margin-top: 10px;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  .imagen {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2338.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen:hover {
+    background-image: url('IMG_2339.jpeg');
+  }
+  .imagen2 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2343.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen2:hover {
+    background-image: url('IMG_2341.jpeg');
+  }
+  .imagen3 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2345.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen3:hover {
+    background-image: url('IMG_2346.jpeg');
+  }
+  .imagen4 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2347.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen4:hover {
+    background-image: url('IMG_2348.jpeg');
+  }
+  .imagen5 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2349.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen5:hover {
+    background-image: url('IMG_2350.jpeg');
+  }
+  .imagen6 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2354.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen6:hover {
+    background-image: url('IMG_2352.jpeg');
+  }
+  .imagen7 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2355.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen7:hover {
+    background-image: url('IMG_2356.jpeg');
+  }
+  .imagen8 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2357.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen8:hover {
+    background-image: url('IMG_2358.jpeg');
+  }
+  .imagen9 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2359.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .imagen9:hover {
+    background-image: url('IMG_2360.jpeg');
+  }
+  .imagen10 {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMG_2361.jpeg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  .imagen10:hover {
+    background-image: url('IMG_2362.jpg');
+  }
